@@ -1,474 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrier Factoring Prequalification Engine | Empire Dispatch</title>
-  <meta name="description" content="Get prequalified in 45 seconds for non-recourse trucking factoring with zero long-term contracts.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚛</text></svg>">
-</head>
-<body class="bg-[#09090b]">
-<!-- ======================================================================= -->
-<!-- EMPIRE DISPATCH: 45-SECOND CARRIER FACTORING PREQUALIFICATION ENGINE     -->
-<!-- Embed into WordPress (Custom HTML Block, Elementor, or Gutenberg)        -->
-<!-- ======================================================================= -->
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-<script src="https://cdn.tailwindcss.com"></script>
-
-<div class="prequal-wrapper bg-[#09090b] text-white min-h-screen py-10 px-4 sm:px-6 lg:px-8 font-['Plus_Jakarta_Sans',sans-serif]">
-  <div class="max-w-3xl mx-auto">
-    
-    <!-- Header Section -->
-    <div class="text-center mb-8">
-      <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs font-bold uppercase tracking-wider mb-4">
-        <span class="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></span>
-        45-Second Carrier Factoring Prequalification Engine
-      </div>
-      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white mb-3 leading-tight">
-        Get Fast, Non-Recourse Funding <br class="hidden sm:inline">
-        <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 via-amber-300 to-orange-500">
-          With Zero Predatory Contracts
-        </span>
-      </h1>
-      <p class="text-gray-400 text-sm sm:text-base max-w-xl mx-auto">
-        Answer 4 quick operational questions below. Our routing engine instantly pairs your authority with our dedicated partner factoring desks for same-day payouts and broker credit protection.
-      </p>
-      
-      <!-- Trust Indicators -->
-      <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-8 mt-5 text-xs text-gray-400">
-        <div class="flex items-center gap-1.5">
-          <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>No Impact on Credit</span>
-        </div>
-        <div class="flex items-center gap-1.5">
-          <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>True Non-Recourse Available</span>
-        </div>
-        <div class="flex items-center gap-1.5">
-          <svg class="w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-          <span>Same-Day Payouts</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Main Container / Card -->
-    <div id="prequal-card" class="bg-[#121216] border border-[#27272a] rounded-2xl shadow-2xl p-6 sm:p-8 relative overflow-hidden">
-      
-      <form id="prequal-form" class="space-y-6">
-        
-        <!-- Question 1: MC / DOT & Authority Age -->
-        <div class="border-b border-[#222226] pb-6">
-          <div class="flex items-center gap-2 mb-3">
-            <span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 flex items-center justify-center text-xs font-bold">1</span>
-            <label class="text-sm font-bold uppercase tracking-wider text-gray-300">Operating Authority & DOT</label>
-          </div>
-          
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div>
-              <label class="block text-xs font-semibold text-gray-400 mb-1.5">MC Number or USDOT Number *</label>
-              <input type="text" id="mc_dot" name="mc_dot" required placeholder="e.g. MC-123456 or DOT 345678"
-                class="w-full bg-[#18181c] border border-[#303036] rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500 transition-all font-mono">
-            </div>
-            <div>
-              <label class="block text-xs font-semibold text-gray-400 mb-1.5">Authority Age *</label>
-              <div class="grid grid-cols-2 gap-2">
-                <label class="cursor-pointer">
-                  <input type="radio" name="authority_age" value="under_90_days" class="peer sr-only">
-                  <div class="px-3 py-2.5 rounded-xl border border-[#303036] bg-[#18181c] text-center text-xs font-medium text-gray-300 peer-checked:border-orange-500 peer-checked:bg-orange-500/10 peer-checked:text-orange-400 transition-all">
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Carrier Factoring Prequalification Engine | Empire Dispatch</title><meta name="description" content="Get a preliminary carrier factoring partner match. Final eligibility and terms are subject to partner review."></head><body style="margin:0">
+<!-- Empire Dispatch: self-contained WordPress Custom HTML embed. No API secrets. --><style>
+.prequal-wrapper{box-sizing:border-box;background:#09090b;color:#f4f4f5;font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:40px 20px;min-height:100vh;color-scheme:dark}
+.prequal-wrapper *, .prequal-wrapper *::before, .prequal-wrapper *::after{box-sizing:border-box}
+.prequal-wrapper .prequal-inner{max-width:768px;margin:auto}
+.prequal-wrapper header{text-align:center;margin-bottom:32px}
+.prequal-wrapper .eyebrow{color:#fb923c;font-size:14px;font-weight:700}
+.prequal-wrapper h1{font-size:clamp(28px,4vw,40px);line-height:1.2;margin:16px 0;font-weight:800;letter-spacing:-.03em}
+.prequal-wrapper h1 span{color:#fb923c}
+.prequal-wrapper h2{font-size:24px;line-height:1.3;margin:0 0 16px}
+.prequal-wrapper p{color:#b8b8c2;margin:12px 0;overflow-wrap:anywhere}
+.prequal-wrapper #prequal-card{padding:32px;border:1px solid #303036;border-radius:16px;background:#121216}
+.prequal-wrapper fieldset{padding:0 0 24px;margin:0 0 24px;border:0;border-bottom:1px solid #303036;min-width:0}
+.prequal-wrapper legend{padding:0;margin:0 0 16px;color:#e4e4e7;font-weight:700;font-size:16px}
+.prequal-wrapper .prequal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.prequal-wrapper .prequal-equipment{grid-template-columns:repeat(3,minmax(0,1fr))}
+.prequal-wrapper .prequal-field{display:block;min-width:0;margin:0}
+.prequal-wrapper .prequal-field>span{display:block;color:#d4d4d8;font-size:14px;margin-bottom:8px}
+.prequal-wrapper input:not([type=radio]){display:block;width:100%;min-height:48px;background:#18181c;color:#fff;border:1px solid #52525b;border-radius:10px;padding:12px;font:inherit}
+.prequal-wrapper input::placeholder{color:#a1a1aa}
+.prequal-wrapper input:focus-visible,.prequal-wrapper a:focus-visible,.prequal-wrapper button:focus-visible{outline:3px solid #fdba74;outline-offset:3px}
+#prequal-form .prequal-choice{display:block;position:relative;cursor:pointer;margin:0;min-width:0}
+#prequal-form .prequal-radio{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+#prequal-form .prequal-option{display:flex;flex-direction:column;justify-content:center;box-sizing:border-box;min-height:72px;height:100%;padding:12px;border:1px solid #52525b;border-radius:10px;background:#18181c;color:#e4e4e7;font-size:14px;line-height:1.45}
+#prequal-form .prequal-option>span:first-child{font-weight:650}
+#prequal-form .prequal-option small{display:block;color:#b8b8c2;font-size:14px;margin-top:4px}
+#prequal-form .prequal-radio:checked+.prequal-option{border-color:#f97316;background:rgba(249,115,22,.10);color:#fb923c;box-shadow:inset 0 0 0 1px #f97316}
+#prequal-form .prequal-radio:checked+.prequal-option>span:first-child{color:#fb923c}
+#prequal-form .prequal-radio:checked+.prequal-option>span:first-child::after{content:" ✓"}
+#prequal-form .prequal-radio:focus-visible+.prequal-option{outline:3px solid #fdba74;outline-offset:3px}
+.prequal-wrapper [hidden]{display:none!important}
+.prequal-wrapper button,.prequal-wrapper .prequal-cta{display:flex;align-items:center;justify-content:center;min-height:48px;padding:16px 20px;border:0;border-radius:10px;background:#fb923c;color:#18181b;font:700 16px/1.4 system-ui,sans-serif;text-align:center;text-decoration:none;cursor:pointer}
+.prequal-wrapper #submit-btn{width:100%;margin-top:24px}
+.prequal-wrapper #submit-btn:disabled{opacity:.65;cursor:wait}
+.prequal-wrapper .prequal-note{font-size:14px}
+.prequal-wrapper #prequal-error{margin:0 0 24px;padding:16px;border:1px solid #f87171;border-radius:10px;color:#fecaca;background:#281419}
+.prequal-wrapper #loading-state{padding:48px 0;text-align:center}
+.prequal-wrapper .prequal-result{border:1px solid #52525b;border-radius:12px;padding:24px}
+.prequal-wrapper .prequal-result a:not(.prequal-cta){color:#fdba74;overflow-wrap:anywhere}
+.prequal-wrapper .prequal-result .prequal-cta{margin:24px 0}
+.prequal-wrapper .prequal-rep{padding:16px;background:#18181c;border-radius:10px;margin:24px 0}
+@media(max-width:600px){.prequal-wrapper{padding:24px 16px}.prequal-wrapper #prequal-card{padding:20px}.prequal-wrapper .prequal-grid{grid-template-columns:1fr}.prequal-wrapper .prequal-equipment{grid-template-columns:repeat(2,minmax(0,1fr))}.prequal-wrapper .prequal-result{padding:16px}}
+@media(prefers-reduced-motion:reduce){.prequal-wrapper *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style><div class="prequal-wrapper"><div class="prequal-inner"><header><div class="eyebrow">45-Second Carrier Factoring Prequalification Engine</div><h1>Find your factoring partner.<br><span>Start with four quick questions.</span></h1><p>Tell us about your operation to get a preliminary partner match. Final approval, rates and terms are determined by the factoring provider.</p><p class="prequal-note">Operational prequalification only · No credit pull by this form</p></header><div id="prequal-card"><form id="prequal-form" aria-describedby="prequal-error"><p id="prequal-error" role="alert" tabindex="-1" hidden></p><div style="margin-bottom:24px"><label class="prequal-field" for="mc_dot"><span>MC number or USDOT number *</span><input type="text" id="mc_dot" name="mc_dot" required placeholder="e.g. MC-123456 or DOT 345678"></label></div><fieldset><legend>1. Authority age *</legend><div class="prequal-grid"><label class="prequal-choice" for="prequal-choice-1"><input class="prequal-radio" id="prequal-choice-1" name="authority_age" required="" type="radio" value="under_90_days"/><span class="prequal-option">
                     Under 90 Days
-                  </div>
-                </label>
-                <label class="cursor-pointer">
-                  <input type="radio" name="authority_age" value="over_90_days" checked class="peer sr-only">
-                  <div class="px-3 py-2.5 rounded-xl border border-[#303036] bg-[#18181c] text-center text-xs font-medium text-gray-300 peer-checked:border-orange-500 peer-checked:bg-orange-500/10 peer-checked:text-orange-400 transition-all">
+                  </span></label><label class="prequal-choice" for="prequal-choice-2"><input class="prequal-radio" id="prequal-choice-2" name="authority_age" required="" type="radio" value="over_90_days"/><span class="prequal-option">
                     90+ Days (Active)
-                  </div>
-                </label>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Question 2: Equipment Type -->
-        <div class="border-b border-[#222226] pb-6">
-          <div class="flex items-center gap-2 mb-3">
-            <span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 flex items-center justify-center text-xs font-bold">2</span>
-            <label class="text-sm font-bold uppercase tracking-wider text-gray-300">Primary Equipment Operated *</label>
-          </div>
-          
-          <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
-            <label class="cursor-pointer">
-              <input type="radio" name="equipment" value="Dry Van (53ft)" checked class="peer sr-only">
-              <div class="p-3 rounded-xl border border-[#303036] bg-[#18181c] text-center peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-xs font-bold text-white peer-checked:text-orange-400">Dry Van (53')</span>
-                <span class="block text-[11px] text-gray-500 mt-0.5">Standard Freight</span>
-              </div>
-            </label>
-            <label class="cursor-pointer">
-              <input type="radio" name="equipment" value="Reefer (Temperature-Controlled)" class="peer sr-only">
-              <div class="p-3 rounded-xl border border-[#303036] bg-[#18181c] text-center peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-xs font-bold text-white peer-checked:text-orange-400">Reefer (53')</span>
-                <span class="block text-[11px] text-gray-500 mt-0.5">Temp Controlled</span>
-              </div>
-            </label>
-            <label class="cursor-pointer">
-              <input type="radio" name="equipment" value="Flatbed / Step Deck" class="peer sr-only">
-              <div class="p-3 rounded-xl border border-[#303036] bg-[#18181c] text-center peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-xs font-bold text-white peer-checked:text-orange-400">Flatbed / Step Deck</span>
-                <span class="block text-[11px] text-gray-500 mt-0.5">Open Deck Freight</span>
-              </div>
-            </label>
-            <label class="cursor-pointer">
-              <input type="radio" name="equipment" value="26ft Box Truck" class="peer sr-only">
-              <div class="p-3 rounded-xl border border-[#303036] bg-[#18181c] text-center peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-xs font-bold text-white peer-checked:text-orange-400">26ft Box Truck</span>
-                <span class="block text-[11px] text-gray-500 mt-0.5">Expedited / LTL</span>
-              </div>
-            </label>
-            <label class="cursor-pointer">
-              <input type="radio" name="equipment" value="Hotshot / Power Only" class="peer sr-only">
-              <div class="p-3 rounded-xl border border-[#303036] bg-[#18181c] text-center peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-xs font-bold text-white peer-checked:text-orange-400">Hotshot / Power Only</span>
-                <span class="block text-[11px] text-gray-500 mt-0.5">Specialized</span>
-              </div>
-            </label>
-            <label class="cursor-pointer">
-              <input type="radio" name="equipment" value="Multi-Truck Fleet" class="peer sr-only">
-              <div class="p-3 rounded-xl border border-[#303036] bg-[#18181c] text-center peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-xs font-bold text-white peer-checked:text-orange-400">Fleet (2+ Trucks)</span>
-                <span class="block text-[11px] text-gray-500 mt-0.5">Multiple Units</span>
-              </div>
-            </label>
-          </div>
-        </div>
-
-        <!-- Question 3: Estimated Monthly Gross Volume -->
-        <div class="border-b border-[#222226] pb-6">
-          <div class="flex items-center gap-2 mb-3">
-            <span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 flex items-center justify-center text-xs font-bold">3</span>
-            <label class="text-sm font-bold uppercase tracking-wider text-gray-300">Average Monthly Gross Revenue *</label>
-          </div>
-          
-          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
-            <label class="cursor-pointer">
-              <input type="radio" name="monthly_gross" value="under_10k" class="peer sr-only">
-              <div class="p-3.5 rounded-xl border border-[#303036] bg-[#18181c] text-center peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-sm font-bold text-white peer-checked:text-orange-400">Under $10,000/mo</span>
-                <span class="block text-xs text-gray-500 mt-1">Starting / Part-time</span>
-              </div>
-            </label>
-            <label class="cursor-pointer">
-              <input type="radio" name="monthly_gross" value="10k_25k" checked class="peer sr-only">
-              <div class="p-3.5 rounded-xl border border-[#303036] bg-[#18181c] text-center peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-sm font-bold text-white peer-checked:text-orange-400">$10,000 – $25,000/mo</span>
-                <span class="block text-xs text-gray-500 mt-1">Standard Solo Truck</span>
-              </div>
-            </label>
-            <label class="cursor-pointer">
-              <input type="radio" name="monthly_gross" value="25k_50k_plus" class="peer sr-only">
-              <div class="p-3.5 rounded-xl border border-[#303036] bg-[#18181c] text-center peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-sm font-bold text-white peer-checked:text-orange-400">$25,000 – $50,000+/mo</span>
-                <span class="block text-xs text-gray-500 mt-1">Team or Fleet Tier</span>
-              </div>
-            </label>
-          </div>
-        </div>
-
-        <!-- Question 4: Current Factoring Status -->
-        <div class="border-b border-[#222226] pb-6">
-          <div class="flex items-center gap-2 mb-3">
-            <span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 flex items-center justify-center text-xs font-bold">4</span>
-            <label class="text-sm font-bold uppercase tracking-wider text-gray-300">Current Factoring Situation *</label>
-          </div>
-          
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-            <label class="cursor-pointer">
-              <input type="radio" name="factoring_status" value="not_factoring" checked class="peer sr-only">
-              <div class="p-3.5 rounded-xl border border-[#303036] bg-[#18181c] peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-xs font-bold text-white peer-checked:text-orange-400">Not Factoring (Waiting on Brokers)</span>
-                <span class="block text-[11px] text-gray-500 mt-0.5">Need same-day cash flow for diesel & repairs</span>
-              </div>
-            </label>
-            <label class="cursor-pointer">
-              <input type="radio" name="factoring_status" value="rate_too_high" class="peer sr-only">
-              <div class="p-3.5 rounded-xl border border-[#303036] bg-[#18181c] peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-xs font-bold text-white peer-checked:text-orange-400">Factoring (Rate too high / Expiring)</span>
-                <span class="block text-[11px] text-gray-500 mt-0.5">Paying >3% or locked into monthly minimums</span>
-              </div>
-            </label>
-            <label class="cursor-pointer">
-              <input type="radio" name="factoring_status" value="locked_contract" class="peer sr-only">
-              <div class="p-3.5 rounded-xl border border-[#303036] bg-[#18181c] peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-xs font-bold text-white peer-checked:text-orange-400">Locked in Contract (Need Zero-Contract)</span>
-                <span class="block text-[11px] text-gray-500 mt-0.5">Hate annual lock-in contracts & penalties</span>
-              </div>
-            </label>
-            <label class="cursor-pointer">
-              <input type="radio" name="factoring_status" value="exploring" class="peer sr-only">
-              <div class="p-3.5 rounded-xl border border-[#303036] bg-[#18181c] peer-checked:border-orange-500 peer-checked:bg-orange-500/10 transition-all">
-                <span class="block text-xs font-bold text-white peer-checked:text-orange-400">Exploring (Want Broker Credit Checks)</span>
-                <span class="block text-[11px] text-gray-500 mt-0.5">Seeking non-recourse default protection</span>
-              </div>
-            </label>
-          </div>
-        </div>
-
-        <!-- Carrier & Driver Contact Info -->
-        <div>
-          <div class="flex items-center gap-2 mb-3">
-            <span class="w-6 h-6 rounded-full bg-orange-500/20 text-orange-400 flex items-center justify-center text-xs font-bold">5</span>
-            <label class="text-sm font-bold uppercase tracking-wider text-gray-300">Carrier Contact & Notification</label>
-          </div>
-
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div>
-              <label class="block text-xs font-semibold text-gray-400 mb-1">Company / Carrier Legal Name *</label>
-              <input type="text" id="company_name" name="company_name" required placeholder="e.g. Apex Freight Logistics LLC"
-                class="w-full bg-[#18181c] border border-[#303036] rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition-all">
-            </div>
-            <div>
-              <label class="block text-xs font-semibold text-gray-400 mb-1">Owner / Driver Contact Name *</label>
-              <input type="text" id="owner_name" name="owner_name" required placeholder="e.g. Marcus Vance"
-                class="w-full bg-[#18181c] border border-[#303036] rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition-all">
-            </div>
-            <div>
-              <label class="block text-xs font-semibold text-gray-400 mb-1">Direct Cell Phone (for approval text/call) *</label>
-              <input type="tel" id="phone" name="phone" required placeholder="e.g. (555) 000-0000"
-                class="w-full bg-[#18181c] border border-[#303036] rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition-all">
-            </div>
-            <div>
-              <label class="block text-xs font-semibold text-gray-400 mb-1">Email Address (for rate schedule) *</label>
-              <input type="email" id="email" name="email" required placeholder="e.g. dispatch@apexhauling.com"
-                class="w-full bg-[#18181c] border border-[#303036] rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition-all">
-            </div>
-          </div>
-        </div>
-
-        <!-- Submit CTA Button -->
-        <div class="pt-4">
-          <button type="submit" id="submit-btn"
-            class="w-full bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white font-extrabold py-4 px-6 rounded-xl shadow-lg shadow-orange-500/25 flex items-center justify-center gap-2 text-base transition-all transform active:scale-[0.99] cursor-pointer">
-            <span>⚡ Check Factoring Eligibility & Non-Recourse Rate (Instant)</span>
-            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-          </button>
-          <p class="text-center text-[11px] text-gray-500 mt-2.5">
-            🔒 256-bit SSL Encrypted. No credit pulls required for prequalification. Powered by Empire Dispatch Logistics.
-          </p>
-        </div>
-      </form>
-
-      <!-- Processing / Loading State -->
-      <div id="loading-state" class="hidden py-16 text-center">
-        <div class="relative w-20 h-20 mx-auto mb-6">
-          <div class="absolute inset-0 rounded-full border-4 border-orange-500/20"></div>
-          <div class="absolute inset-0 rounded-full border-4 border-orange-500 border-t-transparent animate-spin"></div>
-          <div class="absolute inset-0 flex items-center justify-center text-xs font-bold text-orange-400">45s</div>
-        </div>
-        <h3 class="text-xl font-bold text-white mb-2">Analyzing Operating Profile...</h3>
-        <p class="text-sm text-gray-400 max-w-sm mx-auto">
-          Checking broker credit insurance thresholds, non-recourse eligibility, and matching with our dedicated partner desk.
-        </p>
-      </div>
-
-      <!-- Result View 1: Summar Financial Qualified -->
-      <div id="result-summar" class="hidden text-left py-4">
-        <div class="p-6 sm:p-8 rounded-2xl bg-gradient-to-b from-emerald-500/10 to-transparent border border-emerald-500/30 mb-6">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-            </div>
-            <div>
-              <span class="text-xs font-bold uppercase tracking-wider text-emerald-400">Prequalification Status: Verified</span>
-              <h3 class="text-xl sm:text-2xl font-extrabold text-white">Approved for Summar Shield Non-Recourse Factoring</h3>
-            </div>
-          </div>
-          
-          <p class="text-gray-300 text-sm mb-6 leading-relaxed">
-            Your carrier profile meets all criteria for <strong>same-day funding before 2:00 PM EST</strong> with <strong>SUMMAR SHIELD</strong> complete non-recourse credit default protection and <strong>zero monthly volume minimums</strong>.
-          </p>
-
-          <!-- Benefits Matrix -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6 text-xs">
-            <div class="flex items-center gap-2 p-3 rounded-lg bg-[#18181c] border border-[#2e2e36]">
-              <span class="text-emerald-400 font-bold">✓</span>
-              <span class="text-gray-300">100% Default Protection (Zero Clawbacks)</span>
-            </div>
-            <div class="flex items-center gap-2 p-3 rounded-lg bg-[#18181c] border border-[#2e2e36]">
-              <span class="text-emerald-400 font-bold">✓</span>
-              <span class="text-gray-300">Same-Day ACH / Direct Deposit</span>
-            </div>
-            <div class="flex items-center gap-2 p-3 rounded-lg bg-[#18181c] border border-[#2e2e36]">
-              <span class="text-emerald-400 font-bold">✓</span>
-              <span class="text-gray-300">Load Connex Fuel Cards + Diesel Rebates</span>
-            </div>
-            <div class="flex items-center gap-2 p-3 rounded-lg bg-[#18181c] border border-[#2e2e36]">
-              <span class="text-emerald-400 font-bold">✓</span>
-              <span class="text-gray-300">Free Real-Time Broker Credit Checks</span>
-            </div>
-          </div>
-
-          <!-- Account Executive Card -->
-          <div class="bg-[#18181c] border border-emerald-500/30 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
-            <div class="flex items-center gap-3">
-              <div class="w-12 h-12 rounded-full bg-orange-500/20 text-orange-400 flex items-center justify-center font-bold text-base border border-orange-500/30">
-                EV
-              </div>
-              <div>
-                <span class="text-[11px] uppercase tracking-wider text-emerald-400 font-bold">Dedicated Partner Account Executive</span>
-                <h4 class="text-sm font-bold text-white">Elizabeth Valencia</h4>
-                <p class="text-xs text-gray-400">Summar Financial | evalencia@summar.com</p>
-              </div>
-            </div>
-            <a id="summar-calendar-btn" href="https://cwLqJ04.na1.hs-sales-engage.com/" target="_blank"
-              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-black font-extrabold text-xs uppercase tracking-wider transition-all transform active:scale-95 shadow-md shadow-emerald-500/20 whitespace-nowrap">
-              <span>📅 Schedule Onboarding Time</span>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-            </a>
-          </div>
-
-          <!-- Email Dispatched Notice -->
-          <div class="p-4 rounded-xl bg-black/40 border border-[#2e2e36] text-xs text-gray-400">
-            <span class="font-bold text-white">Email Sent:</span> A warm introduction email has been dispatched directly from Managing Director Edward Ssewanyana to Elizabeth Valencia and CC'd to your inbox. You can schedule time on her calendar above or wait for her direct outreach.
-          </div>
-        </div>
-      </div>
-
-      <!-- Result View 2: BasicBlock Approved -->
-      <div id="result-basicblock" class="hidden text-left py-4">
-        <div class="p-6 sm:p-8 rounded-2xl bg-gradient-to-b from-cyan-500/10 to-transparent border border-cyan-500/30 mb-6">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="w-10 h-10 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg>
-            </div>
-            <div>
-              <span class="text-xs font-bold uppercase tracking-wider text-cyan-400">Instant Activation Available</span>
-              <h3 class="text-xl sm:text-2xl font-extrabold text-white">Approved for 2.5% Flat Rate Factoring (No Contract)</h3>
-            </div>
-          </div>
-          
-          <p class="text-gray-300 text-sm mb-6 leading-relaxed">
-            Your operating profile is ideal for <strong>BasicBlock's zero-contract, 2.5% flat rate factoring program</strong>. Specially built for new authorities and growing owner-operators who refuse to be locked into 1-year contracts or monthly volume minimums.
-          </p>
-
-          <!-- Benefits Matrix -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6 text-xs">
-            <div class="flex items-center gap-2 p-3 rounded-lg bg-[#18181c] border border-[#2e2e36]">
-              <span class="text-cyan-400 font-bold">✓</span>
-              <span class="text-gray-300">2.5% Flat Rate Non-Recourse (Lowest for New MC)</span>
-            </div>
-            <div class="flex items-center gap-2 p-3 rounded-lg bg-[#18181c] border border-[#2e2e36]">
-              <span class="text-cyan-400 font-bold">✓</span>
-              <span class="text-gray-300">Zero Lock-In Contracts (Cancel Anytime)</span>
-            </div>
-            <div class="flex items-center gap-2 p-3 rounded-lg bg-[#18181c] border border-[#2e2e36]">
-              <span class="text-cyan-400 font-bold">✓</span>
-              <span class="text-gray-300">Instant $5 Same-Day RTP Payouts</span>
-            </div>
-            <div class="flex items-center gap-2 p-3 rounded-lg bg-[#18181c] border border-[#2e2e36]">
-              <span class="text-cyan-400 font-bold">✓</span>
-              <span class="text-gray-300">50% Fuel Advance on Valid Rate Cons</span>
-            </div>
-          </div>
-
-          <!-- BasicBlock Activation CTA Card -->
-          <div class="bg-[#18181c] border border-cyan-500/30 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
-            <div class="flex items-center gap-3">
-              <div class="w-12 h-12 rounded-full bg-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-base border border-cyan-500/30">
-                SL
-              </div>
-              <div>
-                <span class="text-[11px] uppercase tracking-wider text-cyan-400 font-bold">Dedicated Partner Specialist</span>
-                <h4 class="text-sm font-bold text-white">Sydney Lock | BasicBlock</h4>
-                <p class="text-xs text-gray-400">Direct: (402) 600-0318 | sydney.lock@basicblock.io</p>
-              </div>
-            </div>
-            <a id="basicblock-activate-btn" href="https://na2.hubs.ly/H08PBVP0" target="_blank"
-              class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-black font-extrabold text-xs uppercase tracking-wider transition-all transform active:scale-95 shadow-md shadow-cyan-500/20 whitespace-nowrap">
-              <span>⚡ Activate Account (3 Mins)</span>
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-            </a>
-          </div>
-
-          <!-- Dispatched Notice -->
-          <div class="p-4 rounded-xl bg-black/40 border border-[#2e2e36] text-xs text-gray-400">
-            <span class="font-bold text-white">Email Dispatched:</span> Your exclusive 2.5% rate invitation and partner access link have been emailed to your address. Click above to complete the 3-minute online profile and start factoring.
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const form = document.getElementById('prequal-form');
-  const loading = document.getElementById('loading-state');
-  const resultSummar = document.getElementById('result-summar');
-  const resultBasicblock = document.getElementById('result-basicblock');
-
-  // n8n Live Webhook Endpoint (Configure to your n8n instance)
-  const WEBHOOK_URL = 'https://n8n.businessautomationempire.online/webhook/trucker-factoring-prequal';
-
-  if (!form) return;
-
-  form.addEventListener('submit', async function(e) {
-    e.preventDefault();
-
-    // 1. Gather all form values
-    const formData = new FormData(form);
-    const payload = {};
-    formData.forEach((value, key) => {
-      payload[key] = value;
-    });
-
-    // 2. Transition DOM state to loading spinner
-    form.classList.add('hidden');
-    loading.classList.remove('hidden');
-
-    try {
-      // 3. Dispatch to n8n webhook
-      const response = await fetch(WEBHOOK_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(payload)
-      });
-
-      const data = await response.json();
-      loading.classList.add('hidden');
-
-      // 4. Evaluate returned qualified tier
-      if (data && data.tier === 'SUMMAR') {
-        resultSummar.classList.remove('hidden');
-        if (data.booking_url) {
-          const btn = document.getElementById('summar-calendar-btn');
-          if (btn) btn.href = data.booking_url;
-        }
-      } else {
-        resultBasicblock.classList.remove('hidden');
-        if (data && data.activation_url) {
-          const btn = document.getElementById('basicblock-activate-btn');
-          if (btn) btn.href = data.activation_url;
+                  </span></label></div></fieldset><fieldset><legend>2. Primary equipment operated *</legend><div class="prequal-grid prequal-equipment"><label class="prequal-choice" for="prequal-choice-3"><input class="prequal-radio" id="prequal-choice-3" name="equipment" required="" type="radio" value="Dry Van (53ft)"/><span class="prequal-option"><span>Dry Van (53')</span><small>Standard Freight</small></span></label><label class="prequal-choice" for="prequal-choice-4"><input class="prequal-radio" id="prequal-choice-4" name="equipment" required="" type="radio" value="Reefer (Temperature-Controlled)"/><span class="prequal-option"><span>Reefer (53')</span><small>Temp Controlled</small></span></label><label class="prequal-choice" for="prequal-choice-5"><input class="prequal-radio" id="prequal-choice-5" name="equipment" required="" type="radio" value="Flatbed / Step Deck"/><span class="prequal-option"><span>Flatbed / Step Deck</span><small>Open Deck Freight</small></span></label><label class="prequal-choice" for="prequal-choice-6"><input class="prequal-radio" id="prequal-choice-6" name="equipment" required="" type="radio" value="26ft Box Truck"/><span class="prequal-option"><span>26ft Box Truck</span><small>Expedited / LTL</small></span></label><label class="prequal-choice" for="prequal-choice-7"><input class="prequal-radio" id="prequal-choice-7" name="equipment" required="" type="radio" value="Hotshot / Power Only"/><span class="prequal-option"><span>Hotshot / Power Only</span><small>Specialized</small></span></label><label class="prequal-choice" for="prequal-choice-8"><input class="prequal-radio" id="prequal-choice-8" name="equipment" required="" type="radio" value="Multi-Truck Fleet"/><span class="prequal-option"><span>Fleet (2+ Trucks)</span><small>Multiple Units</small></span></label></div></fieldset><fieldset><legend>3. Average monthly gross revenue *</legend><div class="prequal-grid"><label class="prequal-choice" for="prequal-choice-9"><input class="prequal-radio" id="prequal-choice-9" name="monthly_gross" required="" type="radio" value="under_10k"/><span class="prequal-option"><span>Under $10,000/mo</span><small>Starting / Part-time</small></span></label><label class="prequal-choice" for="prequal-choice-10"><input class="prequal-radio" id="prequal-choice-10" name="monthly_gross" required="" type="radio" value="10k_25k"/><span class="prequal-option"><span>$10,000 – $25,000/mo</span><small>Standard Solo Truck</small></span></label><label class="prequal-choice" for="prequal-choice-11"><input class="prequal-radio" id="prequal-choice-11" name="monthly_gross" required="" type="radio" value="25k_50k_plus"/><span class="prequal-option"><span>$25,000 – $50,000+/mo</span><small>Team or Fleet Tier</small></span></label></div></fieldset><fieldset><legend>4. Current factoring situation *</legend><div class="prequal-grid"><label class="prequal-choice" for="prequal-choice-12"><input class="prequal-radio" id="prequal-choice-12" name="factoring_status" required="" type="radio" value="not_factoring"/><span class="prequal-option"><span>Not Factoring (Waiting on Brokers)</span><small>Need same-day cash flow for diesel &amp; repairs</small></span></label><label class="prequal-choice" for="prequal-choice-13"><input class="prequal-radio" id="prequal-choice-13" name="factoring_status" required="" type="radio" value="rate_too_high"/><span class="prequal-option"><span>Factoring (Rate too high / Expiring)</span><small>Paying &gt;3% or locked into monthly minimums</small></span></label><label class="prequal-choice" for="prequal-choice-14"><input class="prequal-radio" id="prequal-choice-14" name="factoring_status" required="" type="radio" value="locked_contract"/><span class="prequal-option"><span>Locked in Contract (Need Zero-Contract)</span><small>Hate annual lock-in contracts &amp; penalties</small></span></label><label class="prequal-choice" for="prequal-choice-15"><input class="prequal-radio" id="prequal-choice-15" name="factoring_status" required="" type="radio" value="exploring"/><span class="prequal-option"><span>Exploring (Want Broker Credit Checks)</span><small>Seeking non-recourse default protection</small></span></label></div></fieldset><fieldset><legend>5. Carrier contact &amp; notification</legend><div class="prequal-grid"><label class="prequal-field" for="company_name"><span>Company / carrier legal name *</span><input type="text" id="company_name" name="company_name" required placeholder="e.g. Apex Freight Logistics LLC"></label><label class="prequal-field" for="owner_name"><span>Owner / driver contact name *</span><input type="text" id="owner_name" name="owner_name" required placeholder="Your name"></label><label class="prequal-field" for="phone"><span>Direct cell phone *</span><input type="tel" id="phone" name="phone" required placeholder="e.g. (555) 000-0000"></label><label class="prequal-field" for="email"><span>Email address *</span><input type="email" id="email" name="email" required placeholder="dispatch@example.com"></label></div></fieldset><button type="submit" id="submit-btn">Check my preliminary partner match →</button><p class="prequal-note">Submitting shares these details with Empire Dispatch for referral routing and contact by the matched factoring partner. Questions? Call (782) 201-5130.</p></form><div id="loading-state" role="status" aria-live="polite" hidden><h2>Checking your operating profile…</h2><p>Please wait while we request your partner match.</p></div><div id="result-summar" class="prequal-result" hidden><p class="eyebrow">Preliminary partner match</p><h2>Potential match: Summar Financial</h2><p>Based on your answers, Summar Financial may be a suitable partner. This is not credit approval. Eligibility, rates, non-recourse exclusions and funding timing are subject to partner review and agreement.</p><div class="prequal-rep"><strong>Elizabeth Valencia</strong><p>Summar Financial<br><a href="mailto:evalencia@summar.com">evalencia@summar.com</a></p></div><a id="summar-calendar-btn" class="prequal-cta" href="https://cwLqJ04.na1.hs-sales-engage.com/" target="_blank" rel="noopener noreferrer">Schedule onboarding time ↗</a><p data-email-status>Partner match returned. Email sending has not been confirmed; use the partner link above to continue.</p></div><div id="result-basicblock" class="prequal-result" hidden><p class="eyebrow">Preliminary partner match</p><h2>Potential match: BasicBlock</h2><p>Based on your answers, BasicBlock may be a suitable partner. This is not credit approval. Confirm current rates, contract terms and eligibility directly with the partner before applying.</p><div class="prequal-rep"><strong>Sydney Lock | BasicBlock</strong><p><a href="tel:+14026000318">(402) 600-0318</a><br><a href="mailto:sydney.lock@basicblock.io">sydney.lock@basicblock.io</a></p></div><a id="basicblock-activate-btn" class="prequal-cta" href="https://na2.hubs.ly/H08PBVP0" target="_blank" rel="noopener noreferrer">Continue to partner application ↗</a><p data-email-status>Partner match returned. Email sending has not been confirmed; use the partner link above to continue.</p></div></div></div></div><script>
+(function () {
+  'use strict';
+  function initPrequal() {
+    const form = document.getElementById('prequal-form');
+    if (!form || form.dataset.prequalInitialized) return;
+    form.dataset.prequalInitialized = 'true';
+    const root = form.closest('.prequal-wrapper');
+    const loading = root.querySelector('#loading-state');
+    const results = {
+      SUMMAR: root.querySelector('#result-summar'),
+      BASICBLOCK: root.querySelector('#result-basicblock')
+    };
+    const error = form.querySelector('#prequal-error');
+    const submit = form.querySelector('#submit-btn');
+    const groups = ['authority_age', 'equipment', 'monthly_gross', 'factoring_status'];
+    // Keep this contract aligned with the existing n8n workflow.
+    const WEBHOOK_URL = 'https://n8n.businessautomationempire.online/webhook/trucker-factoring-prequal';
+    let pending = false;
+    function show(el, visible) {
+      el.hidden = !visible;
+      el.classList.toggle('hidden', !visible);
+    }
+    // API responses cannot replace partner links with arbitrary destinations.
+    function partnerUrl(value, allowedHostname) {
+      if (typeof value !== 'string') return null;
+      try {
+        const url = new URL(value);
+        return url.protocol === 'https:' && url.hostname === allowedHostname &&
+          !url.username && !url.password && !url.port ? url.href : null;
+      } catch (_) { return null; }
+    }
+    form.addEventListener('submit', async function (event) {
+      event.preventDefault();
+      if (pending) return;
+      error.hidden = true;
+      if (!form.reportValidity()) return;
+      const formData = new FormData(form);
+      for (const group of groups) {
+        if (formData.getAll(group).length !== 1 || !formData.get(group)) {
+          error.textContent = 'Please select one answer for each question.';
+          error.hidden = false;
+          error.focus();
+          return;
         }
       }
-
-      // 5. Smooth scroll down to the result view
-      document.getElementById('prequal-card').scrollIntoView({ behavior: 'smooth' });
-
-    } catch (err) {
-      console.error('Submission error:', err);
-      loading.classList.add('hidden');
-      alert('Network issue connecting to factoring desk. Please call us directly at (782) 201-5130 or try again.');
-      form.classList.remove('hidden');
-    }
-  });
-});
+      const payload = Object.fromEntries(formData.entries());
+      pending = true;
+      submit.disabled = true;
+      form.setAttribute('aria-busy', 'true');
+      Object.values(results).forEach(el => show(el, false));
+      show(form, false);
+      show(loading, true);
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 30000);
+      try {
+        const response = await fetch(WEBHOOK_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+          signal: controller.signal
+        });
+        if (!response.ok) throw new Error('http');
+        let data;
+        try { data = await response.json(); } catch (_) { throw new Error('json'); }
+        if (!data || data.success !== true || !Object.prototype.hasOwnProperty.call(results, data.tier)) {
+          throw new Error('response');
+        }
+        const result = results[data.tier];
+        const notice = result.querySelector('[data-email-status]');
+        notice.textContent = data.email_sent === true
+          ? 'The server confirmed the referral email was sent. Check your inbox and spam folder.'
+          : 'Partner match returned. Email sending has not been confirmed; use the partner link above to continue.';
+        const isSummar = data.tier === 'SUMMAR';
+        const link = result.querySelector(isSummar ? '#summar-calendar-btn' : '#basicblock-activate-btn');
+        const safeUrl = partnerUrl(isSummar ? data.booking_url : data.activation_url,
+          isSummar ? 'cwlqj04.na1.hs-sales-engage.com' : 'na2.hubs.ly');
+        if (safeUrl) link.href = safeUrl;
+        show(result, true);
+        root.querySelector('#prequal-card').scrollIntoView({
+          behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+        });
+        result.setAttribute('tabindex', '-1');
+        result.focus({ preventScroll: true });
+      } catch (err) {
+        Object.values(results).forEach(el => show(el, false));
+        show(form, true);
+        // A timeout is ambiguous: never claim the lead/email was not processed.
+        error.textContent = err.name === 'AbortError'
+          ? 'The request timed out. Your submission may have been processed. Please call (782) 201-5130 before retrying.'
+          : 'We could not confirm your result. Please check your connection or call (782) 201-5130 before retrying; your submission may have been processed.';
+        error.hidden = false;
+        error.focus();
+      } finally {
+        clearTimeout(timeout);
+        show(loading, false);
+        pending = false;
+        submit.disabled = false;
+        form.removeAttribute('aria-busy');
+      }
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPrequal, { once: true });
+  } else {
+    initPrequal();
+  }
+})();
 </script>
 
-</body>
-</html>
+</body></html>
