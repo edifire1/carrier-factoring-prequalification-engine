@@ -84,7 +84,7 @@
     {
       "parameters": {
         "respondWith": "json",
-        "responseBody": "={\n  \"success\": true,\n  \"tier\": \"SUMMAR\",\n  \"title\": \"You Are Prequalified for Summar Shield Non-Recourse Factoring!\",\n  \"message\": \"Congratulations! Your operating profile qualifies for same-day non-recourse funding with Summar Financial with zero monthly volume minimums.\",\n  \"rep_name\": \"Elizabeth Valencia\",\n  \"rep_title\": \"Senior Account Executive | Summar Financial\",\n  \"rep_email\": \"evalencia@summar.com\",\n  \"booking_url\": \"https://cwLqJ04.na1.hs-sales-engage.com/\",\n  \"fuel_program\": \"Load Connex Fuel Cards + Weekly Diesel Rebates\",\n  \"next_steps\": \"A formal warm introduction email has been dispatched directly to Elizabeth Valencia and CC'd to your inbox. You can also pick a direct time on Elizabeth's priority calendar right now.\"\n}",
+        "responseBody": "={\n  \"success\": true,\n  \"tier\": \"SUMMAR\",\n  \"email_sent\": true,\n  \"title\": \"You Are Prequalified for Summar Shield Non-Recourse Factoring!\",\n  \"message\": \"Congratulations! Your operating profile qualifies for same-day non-recourse funding with Summar Financial with zero monthly volume minimums.\",\n  \"rep_name\": \"Elizabeth Valencia\",\n  \"rep_title\": \"Senior Account Executive | Summar Financial\",\n  \"rep_email\": \"evalencia@summar.com\",\n  \"booking_url\": \"https://cwLqJ04.na1.hs-sales-engage.com/\",\n  \"fuel_program\": \"Load Connex Fuel Cards + Weekly Diesel Rebates\",\n  \"next_steps\": \"A formal warm introduction email has been dispatched directly to Elizabeth Valencia and CC'd to your inbox. You can also pick a direct time on Elizabeth's priority calendar right now.\"\n}",
         "options": {
           "responseCode": 200
         }
@@ -118,7 +118,7 @@
     {
       "parameters": {
         "respondWith": "json",
-        "responseBody": "={\n  \"success\": true,\n  \"tier\": \"BASICBLOCK\",\n  \"title\": \"Approved for 2.5% Flat Rate Non-Recourse Factoring!\",\n  \"message\": \"Your profile is approved for BasicBlock's zero-contract, 2.5% flat rate factoring program with $5 same-day RTP.\",\n  \"rep_name\": \"Sydney Lock\",\n  \"rep_title\": \"Partner Specialist | BasicBlock\",\n  \"rep_phone\": \"(402) 600-0318\",\n  \"activation_url\": \"https://na2.hubs.ly/H08PBVP0\",\n  \"next_steps\": \"Your activation link and agreement details have been emailed to you. Click below to activate your account in under 3 minutes with zero lock-in contracts.\"\n}",
+        "responseBody": "={\n  \"success\": true,\n  \"tier\": \"BASICBLOCK\",\n  \"email_sent\": true,\n  \"title\": \"Approved for 2.5% Flat Rate Non-Recourse Factoring!\",\n  \"message\": \"Your profile is approved for BasicBlock's zero-contract, 2.5% flat rate factoring program with $5 same-day RTP.\",\n  \"rep_name\": \"Sydney Lock\",\n  \"rep_title\": \"Partner Specialist | BasicBlock\",\n  \"rep_phone\": \"(402) 600-0318\",\n  \"activation_url\": \"https://na2.hubs.ly/H08PBVP0\",\n  \"next_steps\": \"Your activation link and agreement details have been emailed to you. Click below to activate your account in under 3 minutes with zero lock-in contracts.\"\n}",
         "options": {
           "responseCode": 200
         }
